@@ -1,0 +1,43 @@
+GET http://localhost:8080/api/translete?lang=en-ru&word=word
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-21T053535.200.json
+
+###
+
+GET http://localhost:8080/api/translete?lang=en-ru&word=wordqwe
+Accept: */*
+Cache-Control: no-cache
+
+
+###
+
+GET http://localhost:8080/api/translete?lang=en-ru&word=water
+Accept: */*
+Cache-Control: no-cache
+
+
+###
+
+GET http://localhost:8080/api/translete?lang=en-it&word=word
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-21T053535.200.json
+
+###
+GET http://localhost:8080/api/translete?lang=en-fi&word=word
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-21T053535.200.json
+
+###
+GET http://localhost:8080/wordItem?lang=en&word=word
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-21T053535.200.json
+
+###
