@@ -17,6 +17,7 @@
 
     <modules>
         <module>translator</module>
+        <module>config-service</module>
         <module>example-service</module>
     </modules>
 
