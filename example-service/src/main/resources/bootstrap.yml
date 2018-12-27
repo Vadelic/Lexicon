@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: "dev"
+  application:
+    name: example
+
+---
+
+spring:
+  profiles: 'dev'
+  cloud:
+    config:
+      uri: http://localhost:8881
+
+---
+
+spring:
+  profiles: 'junit'
+  cloud:
+    config:
+      enabled: false

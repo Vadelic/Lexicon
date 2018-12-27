@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    #    - "dev"
+    - "native"
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+
+server:
+  port: 8881
